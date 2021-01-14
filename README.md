@@ -41,5 +41,16 @@ There is not much evidence of importin &alpha; bindining, although it works with
 Whereas IPO7 (50% homologue of IPO8) seems to form a heterodimer with KPNB1, there is no evidence of any &beta; forming a homodimer or any other heterodimer with another &beta;.
 So this latter link needs to be taken with a very strong pinch of salt.
 
+The file [IPO8_yeast-PSSM_Scoremat.asn](IPO8_yeast-PSSM_Scoremat.asn) is a PSSM (_m_atrix), which can be used to find distant homologues with PSI-Blast in NCBI.
+
 ## Models
+
+[Open with human RAN](IPO8-RAN.r.pdb): 1wa5 Swissmodel threaded model with human RAN from 6TVO placed where RAN is in 1WA5.
+
+ITasser model used for spans resi 597-624 or resi 985-end, which had low confidence in the Swissmodel.
+The Swissmodel, by virtue of it being based upon a RAN structure is better for the loop positions that contact RAN.
+
+## Scripts
+
+The base scripts can be found in [The base scripts can be found in [matteoferla/pyrosetta_scripts GitHub repo](The base scripts can be found in []https://github.com/matteoferla/pyrosetta_scripts)
 
