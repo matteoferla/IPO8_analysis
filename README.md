@@ -45,12 +45,9 @@ The file [IPO8_yeast-PSSM_Scoremat.asn](IPO8_yeast-PSSM_Scoremat.asn) is a PSSM 
 
 ## Models
 
-[Open with human RAN](IPO8-RAN.r.pdb): 1wa5 Swissmodel threaded model with human RAN from 6TVO placed where RAN is in 1WA5.
+[Open conformation with human RAN](IPO8-RAN.r.pdb): 1wa5 Swissmodel threaded model with human RAN from 6TVO placed where RAN is in 1WA5.
 
 ITasser model used for spans resi 597-624 or resi 985-end, which had low confidence in the Swissmodel.
 The Swissmodel, by virtue of it being based upon a RAN structure is better for the loop positions that contact RAN.
 
-## Scripts
-
-The base scripts can be found in [The base scripts can be found in [matteoferla/pyrosetta_scripts GitHub repo](The base scripts can be found in []https://github.com/matteoferla/pyrosetta_scripts)
-
+> code is in [code notes](code.md)
